@@ -217,6 +217,9 @@ table Metrics
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure Heading = " Life Expectancy Report as on " & FORMAT(TODAY(), "dd-mmm-yy")
+		lineageTag: 0fcb9e99-7234-4069-b208-01a3303336ec
+
 	column Column1
 		dataType: string
 		isHidden
